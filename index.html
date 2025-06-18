@@ -81,7 +81,7 @@
               flex items-center justify-center rounded-xl p-3 cursor-pointer text-(--text) bg-linear-(--gradient)
               hover:bg-linear-(--gradient-hover)
               shadow-(--shadow)
-              
+
               ${buttonVariants[variant]}
 
               ${className ?? ''}
@@ -93,10 +93,23 @@
         )
       }
 
+      function Card({ children, className, ...props }) {
+        return (
+          <div
+            className={`
+            bg-(--background) shadow-(--shadow) rounded-2xl 
+            ${className ?? ''}
+          `}
+          >
+            {children}
+          </div>
+        )
+      }
+
       function App() {
         return (
           <main className="py-28 px-16">
-            <Button>CE</Button>
+            <Card>Testando card</Card>
           </main>
         )
       }

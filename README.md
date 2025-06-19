@@ -46,7 +46,7 @@ Principais tópicos abordados durante o curso:
 
 ## 💻 Projeto
 
-Calculadora funcional com histórico dos calculos.
+Calculadora funcional com histórico dos cálculos.
 
 - [Visite o projeto online](https://devayresrouxj.github.io/rocketseat-react-calculadora)
 
